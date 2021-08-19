@@ -490,6 +490,11 @@ footer input[type=text]{
     display: none;
 }
 
+footer p{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
 @media only screen and (max-width: 1000px){
     button{
         min-width: 200px !important;

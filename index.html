@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title> ORI </title>
+</head>
+<body class="bg-secondary">
+
+    <!-- Navbar -->
+    <nav class="nav font-helvetica">
+        <span class="left-side">
+            <ul>
+                <li> <a href="/"> Home </a> </li>
+                <li> <a href="/"> Rooms </a> </li>
+                <li> <a href="/"> Wedding </a> </li>
+                <li> <a href="/"> In The Area </a> </li>
+            </ul>
+        </span>
+        <!-- <span>
+
+        </span> -->
+        <span class="right-side">
+            <ul>
+                <li> <a href="/"> Local Dining </a> </li>
+                <li> <a href="/"> Gallary </a> </li>
+                <li> <a href="/"> Rates </a> </li>
+                <li> <a href="/"> Contact </a> </li>
+            </ul>
+        </span>
+    </nav>
+
+    <nav class="mob-nav">
+        <img src="./images/Logo.png" alt="logo" style="width: 80px; height: 24px;"/>
+        <span></span>
+        <i class="fas fa-bars" id="navToggle"></i>
+    </nav>
+
+    <div id="sideNav" class="hidden">
+        <div class="mgrid-2">
+            <div>
+                <ul>
+                    <li> <a href="/"> Home </a> </li>
+                    <li> <a href="/"> Rooms </a> </li>
+                    <li> <a href="/"> Wedding </a> </li>
+                    <li> <a href="/"> In The Area </a> </li>
+                </ul>
+            </div>
+
+            <div>
+                <ul>
+                    <li> <a href="/"> Local Dining </a> </li>
+                    <li> <a href="/"> Gallary </a> </li>
+                    <li> <a href="/"> Rates </a> </li>
+                    <li> <a href="/"> Contact </a> </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Hero -->
+    <section class="hero bg-secondary">
+        <div class="hero-message">
+            <h1 class="text-50 font-great-vibes text-primary animate__animated animate__fadeInUp" style="padding-top: 40px; padding-bottom: 0;" > Book Today </h1>
+            <h2 class="text-68 font-helvetica text-white animate__animated animate__fadeInUp"> Best Rate Guarantee </h2>
+            <p class="text-26 font-helvetica text-white animate__animated animate__fadeInUp"> We guarantee that you'll find tha lowest price here. </p>
+        </div>
+
+        <div class="check-rates" style="overflow: hidden;">
+            <span class="pill" data-aos="fade-up" data-aos-delay="0">
+                <label for="check-in" class="text-20 font-helvetica"> Check In </label>
+                <!-- <input type="date" id="check-in-date" class="check-in-date">     -->
+                <i class="fas fa-angle-down"></i>
+                <!-- V -->
+            </span>
+
+            <span class="pill" data-aos="fade-up" data-aos-delay="100">
+                <label for="check-out" class="text-20 font-helvetica"> Check Out </label>
+                <!-- <input type="date" id="check-out-date" class="check-out-date"> -->
+                <i class="fas fa-angle-down"></i>
+                <!-- V -->
+            </span>
+
+            <span class="pill" data-aos="fade-up" data-aos-delay="200">
+                <label for="guest" class="text-20 font-helvetica"> Guest </label>
+                <i class="fas fa-angle-down"></i> 
+                <!-- V -->
+                <!-- <select>
+                    <option> Guest </option>
+                </select> -->
+            </span>
+
+            <span>
+                <button class="btn btn-primary btn-small rate-btn" data-aos="fade-up" data-aos-delay="400">
+                    Check Rates
+                </button>
+            </span>
+        </div>
+    </section>
+
+
+    <!-- About us -->
+    <section class="about-us bg-secondary pt-200">
+        <div class="about-us-bg">
+
+            <div class="flex-row about-us-desktop">
+                <div class="flex-col-1">
+                    <img src="./images/about-us-1.jpg" class="about-us-1-img" data-aos="fade-up" data-aos-delay="100"/>
+    
+                    <div data-aos="fade-up" data-aos-delay="600">
+                        <h3 class="font-helvetica text-gray" style="font-size: 22px; line-height: 32px; padding-right: 20px; padding-top: 40px;">
+                            Located one mile north of Ogunquit Village, famous for local shopping & dining!
+                        </h3>
+                        <br />
+                        <p class="font-helvetica text-gray" style="font-size: 16; line-height: 24px; padding-right: 20px;">
+                            Ogunquit River Inn overlooks the Ogunquit River and the Atlantic Ocean. The Rachel Carson Wildlife Refuge borders the property and attracts ducks, seabirds, deer and other wildlife, adding an extra dimension to your stay.
+                            <br /> <br /> 
+                            Come relax at our beautiful inn and enjoy our complimentary breakfast!
+                        </p>
+                    </div>
+                </div>
+    
+                <div class="flex-col-2">
+                    <img src="./images/about-us-2.jpg" class="about-us-2-img" data-aos="fade-up" data-aos-delay="200"/>
+    
+                    <img src="./images/about-us-3.jpg" class="about-us-3-img" data-aos="fade-up" data-aos-delay="300"/>
+    
+                    <img src="./images/about-us-4.jpg" class="about-us-4-img" data-aos="fade-up" data-aos-delay="400"/>
+    
+                </div>
+                <div class="flex-col-3">
+                    <h1 class="font-great-vibes text-primary" data-aos="fade-up" style="font-size: 45px; padding-top: 50px; padding-bottom: 15px;  padding-left: 38px"> About Us </h1>
+                    <h2 class="font-helvetica" data-aos="fade-up" style="padding-top: 5px; font-size: 40px; padding-bottom: 50px; padding-left: 38px;"> Ogunquit River Inn </h2>
+                    
+                    <img src="./images/about-us-5.jpg" class="about-us-5-img" data-aos="fade-up" data-aos-delay="500"/>
+                    
+                </div>
+            </div>
+
+            <div class="about-us-mob pt-100">
+                <h1 class="font-great-vibes text-primary" data-aos="fade-up" data-aos-delay="0"> About us </h1>
+                <h2 class="font-helvetica" data-aos="fade-up"> Ogunquit River Inn </h2>
+
+                <h3 class="font-helvetica text-gray">
+                    Located one mile north of Ogunquit Village, famous for local shopping & dining!
+                </h3>
+
+                <p class="font-helvetica text-gray">
+                    Ogunquit River Inn overlooks the Ogunquit River and the Atlantic Ocean. The Rachel Carson Wildlife Refuge borders the property and attracts ducks, seabirds, deer and other wildlife, adding an extra dimension to your stay.
+                    <br /> <br /> 
+                    Come relax at our beautiful inn and enjoy our complimentary breakfast!
+                </p>
+
+                <!-- <div class="flex-row">
+                    <div class="flex-col-1-mb">
+                    <img src="./images/about-us-1.jpg" class="about-us-1-img"/>
+
+                    <img src="./images/about-us-3.jpg" class="about-us-2-img"/>
+                    </div>
+                    <div class="flex-col-2-mb">
+                    <img src="./images/about-us-2.jpg" class="about-us-3-img"/>
+                    <img src="./images/about-us-4.jpg" class="about-us-4-img"/>
+                        
+                    </div>
+                    <div class="flex-row-3-mb">
+                        <img src="./images/about-us-5.jpg" class="about-us-5-img"/>
+                    </div>
+                </div> -->
+
+                <img src="./images/about-us-mb.png" class="px-25"/>
+            </div>
+        </div>
+
+
+
+        
+
+        
+
+    </section>
+
+    <img src="./images/places-bg-1.jpg" class="seperator"/>
+
+    <!-- Places -->
+    <section class="places">
+
+
+        <section class="places-hero">
+            <div class="places-hero-text">
+                <div class="places-hero-text-wrapper">
+                    <h1 class="font-great-vibes text-primary" data-aos="fade-up"> Explore Places </h1>
+                    <h2 class="font-helvetica" data-aos="fade-up">  Beaches & Attraction </h2>
+                    <p class="font-helvetica text-gray">Southern Maine is famous for its world class beaches! There are three access points to the broad ribbon of beach that stretches between Wells and Ogunquit; Moody Beach,  Footbridge & Ogunquit Beach. ​</p>
+                
+                        <span class="places-hero-links">
+                            <button class="btn btn-secondary"> Call Now </button>
+                            <button class="btn btn-primary"> Book Now </button>
+                        </span>
+                    </span>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-white">
+            <div class="grid-12 px-100 mgrid-pref">
+                <div class="mb-second">
+                    <img src="./images/placs-2.jpg" />
+                </div>
+                <div class="text-wrapper text-wrapper-right mb-first">
+                    <h1 class="font-great-vibes text-primary" data-aos="fade-left"> Explore Places </h1>
+                    <h2 class="font-helvetica" data-aos="fade-left"> Local Shopping, Dining <br /> & Entertaintment </h2>
+                    <p class="font-helvetica p text-gray" data-aos="fade-left"> Ogunquit has a number of interesting shops offering antiques, rare books and other items. Ogunquit has a lovely walking village with dozens of boutiques and interesting shops. This coastal area is also famous for restaurants, from casual to fine dining, as well as great comedy clubs. Enjoy a show at the renowned <span class="text-primary"> Ogunquit Playhouse </span> or live music at one of the local venues. </p>
+
+                    <span class="places-links" data-aos="fade-left">
+                        <button class="btn btn-secondary" style="margin-right:20px;"> Call Now </button>
+                        <button class="btn btn-primary"> Book Now </button>
+                    </span>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-100 transportation">
+            <div class="grid-12 px-100 mgrid">
+                <div>
+                    <h1 class="font-great-vibes text-primary" data-aos="fade-up"> Explore Places </h1>
+                    <h2 class="font-helvetica" data-aos="fade-up"> Transportation </h2>
+                </div>
+
+                <div class="text-gray">
+                    <p class="font-helvetica"> **UNAVAILABLE DUE TO COVID-19 RESTRICTIONS​ </p>
+                    <p class="font-helvetica"> Our partnership with local trolley companies allows us to offer guests a convenient pickup and drop off right in front of our hotel! </p>
+                    <p class="font-helvetica"> <span class="text-primary">Ogunquit Trolley Company</span> offers pick up 8AM – 11PM from 6/27 – Labor Day every 20-30 minutes. Tel: 207-646-1411  </p>
+                    <p class="font-helvetica"> <span class="text-bold"> RATES: </span>  $2.00/adult per ride + $1.50/child under 10 per ride </p>
+                </div>
+            </div>
+
+            <div class="grid-12-4-6 mgrid">
+                <div>
+                    <img  src="./images/places-3.jpg" data-aos="fade-up"/>            
+                </div>
+
+                <div>
+                    <img  src="./images/places-4.jpg" data-aos="fade-up"/>                
+                </div>
+
+            </div>
+        </section>
+
+
+        <section class="kayak-rentals px-100">
+            <div class="grid-12 px-200 mgrid">
+                
+                <div class="text-wrapper text-wrapper-left">
+                    <h1 class="font-great-vibes text-primary" data-aos="fade-right"> Explore Places </h1>
+                    <h2 class="font-helvetica" data-aos="fade-right"> Kayak Rentals </h2>
+                    <p class="font-helvetica p text-gray" data-aos="fade-right"> <span class="text-primary"> Within Kayak Rentals</span> is located here at the Ogunquit River Inn in the heart of the Rachel Carson Wildlife Refuge. The safe, quiet, beautiful Ogunquit river and it’s maze-like estuaries that lead down to the Atlantic ocean. Guests staying at Ogunquit River Inn receive discounted rates on rentals. </p>
+
+                    <span class="places-links" data-aos="fade-right">
+                        <button class="btn btn-secondary" style="margin-right:20px;"> Call Now </button>
+                        <button class="btn btn-primary"> Book Now </button>
+                    </span>
+                </div>
+
+                <div>
+                    <img src="./images/image-1.png" />
+                </div>
+            </div>
+        </section>
+
+        <section class="py-100 book-direct bg-white">
+            <h1 class="font-great-vibes text-primary" data-aos="fade-up"> Book Today </h1>
+            <div class="grid-12 mgrid">
+                <div class="text-wrapper">
+                    <h2 class="font-helvetica"> Book Direct </h2>
+                    <p class="font-helvetica p text-gray"> Book directly with us by calling 207-261-0947, or by visiting the Choice website HERE.</p>
+                    <span class="flex">
+                        <img class="logo" src="./images//assend.jpg"/>
+                        <p class="address text-gray"> Ogunquit River Inn, an Ascend Hotel Collection Member </p>
+                    </span>
+
+                    <!-- <span class="places-links">
+                        <button class="btn btn-secondary" style="margin: 0 20px;"> Call Now </button>
+                        <button class="btn btn-primary"> Book Now </button>
+                    </span> -->
+                </div>
+
+                <div class="text-wrapper">
+                    <h3 class="font-helvetica"> Why Book Direct?  </h3>
+                    <p class="font-helvetica p text-gray"> 
+                        * It’s easier for us to make changes to your reservation. <br />
+                        * No booking fees when you book direct! No waiting for your waiting confirmation letters to go thru a third party systems. <br />
+                        * Enjoy talking to a real person here, onsite, about your stay and room preferences. <br />
+                        * Guests who book direct are eligible for upgrades and enjoy more flexibility over their reservation. <br />
+                        * Your information stays private. <br />
+                        * You get to be in charge of your choices. </p>
+
+                    <!-- <span class="places-links">
+                        <button class="btn btn-secondary" style="margin: 0 20px;"> Call Now </button>
+                        <button class="btn btn-primary"> Book Now </button>
+                    </span> -->
+                </div>
+            </div>
+        </section>
+
+        <footer class="px-100 text-white font-helvetica" style="text-align: center;">
+            <div class="grid-14 py-100 mgrid-2" style="padding-bottom: 100px;">
+                <div class="cell-s-2">
+
+                </div>
+                <div>
+                    <ul>
+                        <li> <a> Directions </a> </li>
+                        <li> <a> Giri Hotels </a> </li>
+                        <li> <a> BookDirect FAQ </a> </li>
+                        <li> <a> Safety FAQ </a> </li>
+                        <li> <a> Choice Privileges </a> </li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li> <p> (207) 261 0947 </p> </li>
+                        <li> <p> Info@ogunquit.com </p> </li>
+                        <li> <p> 17 Post Rd, Wells, ME 04090 </p> </li>
+                    </ul>
+                </div>
+                <div class="cell-s-2">
+                    <p style="padding-bottom: 25px;"> Sign up to receive exclusive offers </p>
+                    <span class="sign-up">
+                        <input type="text" placeholder="Enter your Email"/> <br /> <br />
+
+                    <button class="btn btn-primary sign-up-btn"> Sign Up </button>
+                    </span>
+                </div>
+            </div>
+            <hr style="width:80%; margin-left:10% !important; margin-right:10% !important;" />
+            <div class="py-100">
+                <span class="flex footer-flex py-100">
+                    <p>
+                        © 2021 Ogunquit River Inn | All Rights Reserved
+                    </p>
+    
+                    <span>
+                        <a> Privacy Policy </a> - 
+                        <a> Terms & Conditions </a>
+                    </span>
+                </span>
+            </div>
+        </footer>
+
+    </section>
+</body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="script.js"></script>
+
+</html>
